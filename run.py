@@ -11,6 +11,8 @@ img_path = "suppliers-data/images/"
 path_dir = os.listdir(path)
 fruit_dict = {}
 
+# Iterate through th edirectory to get the details lie weight and discription and name of fruits
+
 for text in path_dir:
   if text.endswith("txt"):
     image_name = text.split(".")[0]
