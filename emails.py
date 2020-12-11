@@ -26,6 +26,8 @@ def generate_email(sender,recipent,subject,body,attachment_path = None):
                             filename=attachment_filename)
   return message
 
+#Send email 
+
 def send_email(message_pdf):
   mail_server = smtplib.SMTP('localhost')
 
